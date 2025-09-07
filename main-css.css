@@ -1,0 +1,276 @@
+
+/* Sizing section */
+.sizing {
+  margin-top: 8rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+}
+
+.first-room {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.more-info {
+  position: static;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.welcome {
+  color: #0c1a27;
+  margin: 13rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.signature {
+  margin-left: 1rem;
+  color: #0c1a27;
+  text-align: center;
+}
+
+.more {
+  width: 90%;
+  max-width: 45rem;
+  margin: 2rem auto;
+  position: static;
+  color: #0c1a27;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.room-grid {
+  background-image: url(images/background-block-lightyellow.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.room-texts {
+  text-align: center;
+  color: #0c1a27;
+}
+
+.room-text {
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+  max-width: 90%;
+  font-size: 1.5rem;
+}
+
+.room-details {
+  color: white;
+  background-color: #0c1a27;
+  padding: 1.5rem 4rem;
+  border: none;
+  margin: 2rem auto;
+  cursor: pointer;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.rooms-images {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.first-third,
+.second,
+.fourth,
+.fourth-fifth {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Wallpaper */
+.image-wallpaper {
+  background-image: url(images/sittingroom.jpg);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 5rem;
+  background-attachment: fixed;
+}
+
+/* Restaurant Lounge */
+.restaurant-lounge {
+  color: #0c1a27;
+  text-align: center;
+}
+
+.bars {
+  margin: 2rem auto;
+  padding: 0 2rem;
+  text-align: center;
+  color: #0c1a27;
+  font-size: 1.5rem;
+}
+
+.bar-images {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Events */
+.meetings-events {
+  margin-top: 5rem;
+  background-image: url(images/background-block-lightyellow.svg);
+  background-size: cover;
+  padding: 5rem 2rem;
+  position: relative;
+}
+
+.event-grid {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.match-sec{
+   color: #0c1a27;
+  line-height: 2.5rem;
+  font-size: 2.2rem;
+  
+}
+
+.match {
+  color: #0c1a27;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.booknow {
+  color: white;
+  background-color: #0c1a27;
+  padding: 1.5rem 4rem;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.event-room {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.event-room-grid {
+  width: 100%;
+  max-width: 700px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+/* Details Grid */
+.detail-grid {
+  margin: 5rem 2rem;
+  position: relative;
+}
+
+.reserve {
+  color: #0c1a27;
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.reservee {
+  font-size: 2rem;
+  color: #0c1a27;
+  text-align: center;
+}
+
+.address,
+.tel {
+  color: #0c1a27;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.tel {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: #0c1a27;
+}
+
+.usbutton,
+.direct {
+  background-color: #0c1a27;
+  color: white;
+  padding: 1.5rem 4rem;
+  border: none;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.direct {
+  position: relative;
+  display: block;
+  margin: 2rem auto;
+}
+
+.map {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1rem;
+  }
+
+  .booking {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .signature {
+    margin-left: 0;
+  }
+
+  .more-info {
+    position: static;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .direct {
+    position: static;
+    margin: 2rem auto;
+  }
+}

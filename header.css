@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  height: auto;
+  width: 100%;
+  background-color: #0c1a27;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 4rem;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.RMR {
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 2.5rem;
+}
+
+
+
+.booking {
+  display: inline-block;
+  color: black;
+  background-color: rgb(212, 175, 56);
+  padding: 1.5rem 4rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
